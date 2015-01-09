@@ -4,7 +4,18 @@ Amazon RDS Log download tool.
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+Usage: rds-log-download [options]
+    -t, --datetime=DATETIME          Target log last modified datetime
+    -r, --region=REGION              Target RDS region
+    -i, --instance=INSTANCE          Target RDS instance identifier
+    -d, --logdir DIR                 Log output directory
+    -kACCESS_KEY_ID,                 access key id
+        --access-key-id
+    -sSECRET_ACCESS_KEY,             secret access key
+        --secret-access-key
+    -p, --profile=PROFILE            Use a specific profile from your credential file.
+```
 
 ## Contributing
 
